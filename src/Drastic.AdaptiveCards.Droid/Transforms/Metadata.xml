@@ -1,0 +1,33 @@
+﻿<metadata>
+  <remove-node path="/api/package[@name='io.adaptivecards.objectmodel']/class[@name='AdaptiveCardParseWarningVector']/method[@name='get']" />
+  <remove-node path="/api/package[@name='io.adaptivecards.objectmodel']/class[@name='TableRowVector']/method[@name='get']" />
+  <remove-node path="/api/package[@name='io.adaptivecards.objectmodel']/class[@name='TableCellVector']/method[@name='get']" />
+  <remove-node path="/api/package[@name='io.adaptivecards.objectmodel']/class[@name='TableColumnDefinitionVector']/method[@name='get']" />
+  <remove-node path="/api/package[@name='io.adaptivecards.objectmodel']/class[@name='AuthCardButtonVector']/method[@name='get']" />
+  <remove-node path="/api/package[@name='io.adaptivecards.objectmodel']/class[@name='CaptionSourceVector']/method[@name='get']" />
+  <remove-node path="/api/package[@name='io.adaptivecards.objectmodel']/class[@name='BaseActionElementVector']/method[@name='get']" />
+  <remove-node path="/api/package[@name='io.adaptivecards.objectmodel']/class[@name='BaseCardElementVector']/method[@name='get']" />
+  <remove-node path="/api/package[@name='io.adaptivecards.objectmodel']/class[@name='CharVector']/method[@name='get']" />
+  <remove-node path="/api/package[@name='io.adaptivecards.objectmodel']/class[@name='ChoiceInputVector']/method[@name='get']" />
+  <remove-node path="/api/package[@name='io.adaptivecards.objectmodel']/class[@name='ColumnVector']/method[@name='get']" />
+  <remove-node path="/api/package[@name='io.adaptivecards.objectmodel']/class[@name='DateTimePreparsedTokenVector']/method[@name='get']" />
+  <remove-node path="/api/package[@name='io.adaptivecards.objectmodel']/class[@name='FactVector']/method[@name='get']" />
+  <remove-node path="/api/package[@name='io.adaptivecards.objectmodel']/class[@name='ImageVector']/method[@name='get']" />
+  <remove-node path="/api/package[@name='io.adaptivecards.objectmodel']/class[@name='InlineVector']/method[@name='get']" />
+  <remove-node path="/api/package[@name='io.adaptivecards.objectmodel']/class[@name='MediaSourceVector']/method[@name='get']" />
+  <remove-node path="/api/package[@name='io.adaptivecards.objectmodel']/class[@name='RemoteResourceInformationVector']/method[@name='get']" />
+  <remove-node path="/api/package[@name='io.adaptivecards.objectmodel']/class[@name='StringVector']/method[@name='get']" />
+  <remove-node path="/api/package[@name='io.adaptivecards.objectmodel']/class[@name='ToggleVisibilityTargetVector']/method[@name='get']" />
+  <remove-node path="/api/package[@name='io.adaptivecards.renderer.readonly']/class[@name='ContainerRenderer']/method[@name='ApplyBleed']" />
+  <remove-node path="/api/package[@name='io.adaptivecards.renderer.readonly']/class[@name='ContainerRenderer']/method[@name='ApplyPadding']" />
+  <remove-node path="/api/package[@name='io.adaptivecards.renderer.readonly']/class[@name='ContainerRenderer']/method[@name='GetLocalContainerStyle']" />
+  <remove-node path="/api/package[@name='io.adaptivecards.renderer.readonly']/class[@name='ImageRenderer']/method[@name='render']" />
+  <add-node path="/api/package[@name='io.adaptivecards.renderer']">
+    <class abstract="false" deprecated="not deprecated" final="false" name="BackgroundImageLoaderAsync" static="false" visibility="public" extends="java.lang.Object">
+    </class>
+  </add-node>
+  <add-node path="/api/package[@name='io.adaptivecards.renderer']">
+    <class abstract="false" deprecated="not deprecated" final="false" name="MediaLoaderAsync" static="false" visibility="public" extends="java.lang.Object">
+    </class>
+  </add-node>
+</metadata>
